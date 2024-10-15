@@ -3,17 +3,18 @@
 ## TODOs for the project
 1. Make a group (up to 3 ppl)
 2. Choose a topic
-    1. Find a dataset
-    2. Choose a model
+    1. Find dataset(s)
+    2. Choose several models cause we need to compare them
  3. Implementation
-    1. Build a frontend website (Vue.js) -> **MVP**
-    2. Train the model and store the result object(colab, Linode)
-    3. Build the pipeline and API based on the trained model (FastAPI)
-    4. Call API from the website
-    5. Depoly the website
+    1. Frontend
+       1. Build a frontend website (React+bootstrap) -> **MVP**
+       2. Call API from the backend
+    2. Backend
+       1. Train the model and store the result object(colab, Linode)
+       2. Build the pipeline and API based on the trained model (FastAPI)
+    3. Depoly the Website
 
 ## Online resources/courses
 1. [AI as an API](https://www.youtube.com/watch?v=56qQNcHJxyQ)
-2. [AI Chat Bot with Vue.js and GPT-4](https://vueschool.io/lessons/intro-to-open-ai-and-gpt-3-4)
-3. [Introduction to Vue.js](https://vuejs.org/guide/introduction.html)
-4. [Fast API](https://fastapi.tiangolo.com)
+2. [Fast API](https://fastapi.tiangolo.com)
+3. [How to build a React + FastAPI application (Full Stack Guide)](https://www.youtube.com/watch?v=0zb2kohYZIM)
